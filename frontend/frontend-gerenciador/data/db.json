@@ -67,6 +67,125 @@
         "pais": "Brasil"
       },
       "id": 16
+    },
+    {
+      "nome": "Inorpel ",
+      "cnpj": "11240185000112",
+      "email": "adminorpel@inorpel.com.br",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58034-050",
+        "logradouro": "Rua Walda Cruz Cordeiro",
+        "numero": "600",
+        "complemento": "",
+        "bairro": "João Agripino",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "pais": "Brasil"
+      },
+      "id": 17
+    },
+    {
+      "nome": "Elizabeth Cerâmicas e Porcelanatos ",
+      "cnpj": "12165180000144",
+      "email": "elizabeth@elizabeth.com.br",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58034-050",
+        "logradouro": "Rua Walda Cruz Cordeiro",
+        "numero": "345",
+        "complemento": "",
+        "bairro": "João Agripino",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "pais": "Brasil"
+      },
+      "id": 18
+    },
+    {
+      "nome": "Casas Bahia",
+      "cnpj": "11111111111111",
+      "email": "casasbahia@casasbh.com.br",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58071-710",
+        "logradouro": "Rua Petrarca Grisi",
+        "numero": "174",
+        "complemento": "",
+        "bairro": "Cristo Redentor",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "pais": "Brasil"
+      },
+      "id": 19
+    },
+    {
+      "nome": "Americanas SA",
+      "cnpj": "22222222222222",
+      "email": "americanas@americanas.com.br",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58035-400",
+        "logradouro": "Rua Maria das Graças Ribeiro de Alencar",
+        "numero": "253",
+        "complemento": "",
+        "bairro": "Bessa",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "pais": "Brasil"
+      },
+      "id": 20
+    },
+    {
+      "nome": "Centauros SA",
+      "cnpj": "77777777777777",
+      "email": "centauro@centauro.com.br",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58066-200",
+        "logradouro": "Rua das Ingazeiras",
+        "numero": "1015",
+        "complemento": "",
+        "bairro": "Muçumagro",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "pais": "Brasil"
+      },
+      "id": 21
+    },
+    {
+      "nome": "Pernambucanas SA",
+      "cnpj": "45678912000152",
+      "email": "pernambucana@pernambucana.com.br",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58071-710",
+        "logradouro": "Rua Petrarca Grisi",
+        "numero": "1000",
+        "complemento": "",
+        "bairro": "Cristo Redentor",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "pais": "Brasil"
+      },
+      "id": 22
+    },
+    {
+      "nome": "Elfa Medicamentos SA",
+      "cnpj": "12345678000101",
+      "email": "elfamedicamentos@elfa.com.br",
+      "tipoFornecedor": "COMUM",
+      "endereco": {
+        "cep": "58034-050",
+        "logradouro": "Rua Walda Cruz Cordeiro",
+        "numero": "560",
+        "complemento": "",
+        "bairro": "João Agripino",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "pais": "Brasil"
+      },
+      "id": 23
     }
   ],
   "produtos": [

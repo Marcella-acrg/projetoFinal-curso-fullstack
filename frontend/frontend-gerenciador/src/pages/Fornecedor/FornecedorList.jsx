@@ -44,13 +44,13 @@ const FornecedorList = () => {
     }
 
   return (
-    <div className='container mt-5'>
-        <h2 className='mb-a' style={{position: 'relative'}}> Lista de Fornecedores</h2>
+    <div className="container mt-5">
+        <h2 className="mb-a" style={{position: 'relative'}}> Lista de Fornecedores</h2>
 
         <Link to="/add-fornecedores" className="btn btn-primary mb-2">
         <FaPlus className="icon"/> Adicionar Forncedor </Link>
 
-        <table className='table'>
+        <table className="table">
             <thead>
                 <th>Nome:</th>
                 <th>CNPJ</th>
@@ -62,13 +62,13 @@ const FornecedorList = () => {
                     fornecedores.map(fornecedor => (
                         <tr key={fornecedor.id}>
                             <td>{fornecedor.nome}</td>
-                            <td>{fornecedor.cnpj}</td>
+                            <td>{fornecedor.cnpj.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})$/, "$1.$2.$3/$4-$5")}</td>
                             <td>{fornecedor.email}</td>
                             <td>
-                                <Link to={'/edit-fornecedores/${fornecedor.id}'} className='btn btn-sm btn-warning'>
-                                <FaEdit className='icon icon-btn' />Editar</Link>
-                                <button onClick={() => abrirModal(fornecedor)} className='btn btn-sm btn-danger'><FaTrash className='icon icon-btn' />
-                                    Excluir
+                                <Link to={`/edit-fornecedores/${fornecedor.id}`} className="btn btn-sm btn-warning">
+                                <FaEdit className="icon icon-btn" />Editar</Link>
+                                <button onClick={() => abrirModal(fornecedor)} className="btn btn-sm btn-danger">
+                                    <FaTrash className="icon icon-btn" />Excluir
                                 </button>
                             </td>
                         </tr>
