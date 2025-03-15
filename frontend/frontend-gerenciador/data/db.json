@@ -223,6 +223,14 @@
       "preco": "250.00",
       "descricao": "Fone sem fio com excelente qualidade de som.",
       "quantidadeEstoque": 50
+    },
+    {
+      "nome": "Cereja",
+      "preco": "8.50",
+      "descricao": "Cereja especial",
+      "quantidadeEstoque": "349",
+      "fornecedorId": "15",
+      "id": 6
     }
   ],
   "clientes": [
@@ -290,6 +298,22 @@
       "cidade": "Porto Alegre",
       "estado": "RS",
       "pais": "Brasil"
+    },
+    {
+      "nome": "Marcella Araújo C. R. Gomes",
+      "cpf": "05530289463",
+      "email": "marcellaacoelho@gmail.com",
+      "endereco": {
+        "logradouro": "Rua Walda Cruz Cordeiro",
+        "numero": "1",
+        "complemento": "Apto 903A",
+        "bairro": "João Agripino",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "pais": "Brasil",
+        "cep": "58034050"
+      },
+      "id": 6
     }
   ]
 }
